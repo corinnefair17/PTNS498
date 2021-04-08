@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Door
   - UI
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -51,6 +52,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 2726333135
+    locked: 0
+  - name: Enemies
+    uniqueID: 1513649329
     locked: 0
   - name: UI
     uniqueID: 3684857337

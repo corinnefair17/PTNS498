@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class DoorController : MonoBehaviour
 {
-    public GameObject player;
-    public GameObject cam;
+    private GameObject player;
+    private GameObject cam;
+    public string sceneName;
     public Vector3 playerPosition;
     public Vector3 camMinPosition;
     public Vector3 camMaxPosition;
@@ -24,7 +25,7 @@ public class DoorController : MonoBehaviour
     {
         if (playerAtDoor && Input.GetKeyDown(KeyCode.E)) 
         {
-            Scene sceneToLoad = SceneManager.GetSceneByName("Room2");
+            Scene sceneToLoad = SceneManager.GetSceneByName(sceneName);
             SceneManager.MoveGameObjectToScene(player, sceneToLoad);
             SceneManager.MoveGameObjectToScene(cam, sceneToLoad);
             player.transform.position = playerPosition;

@@ -6400,6 +6400,11 @@ PrefabInstance:
       objectReference: {fileID: 869101753811040362}
     - target: {fileID: 6643806488934755635, guid: 941ece1dc59a38a42951ba6fbb99e4e6,
         type: 3}
+      propertyPath: sceneName
+      value: Room2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6643806488934755635, guid: 941ece1dc59a38a42951ba6fbb99e4e6,
+        type: 3}
       propertyPath: camMaxPosition.x
       value: -10.5
       objectReference: {fileID: 0}
