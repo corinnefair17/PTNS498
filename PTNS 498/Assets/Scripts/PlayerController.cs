@@ -45,9 +45,4 @@ public class PlayerController : MonoBehaviour
         // Set the player's movement to input direction at given movement speed
         body.velocity = new Vector2(horizontal * movementSpeed, vertical * movementSpeed);
     }
-
-    private void OnTriggerEnter2D(Collider2D collider) 
-    {
-        Debug.Log("Trigger Hit");
-    }
 }
