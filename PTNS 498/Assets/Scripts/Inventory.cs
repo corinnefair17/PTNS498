@@ -24,16 +24,6 @@ public class Inventory : MonoBehaviour {
     public List<Item> items = new List<Item>();
 
     public void Add(Item item) {
-        // Item copy = Instantiate(item);
-        // bool increased = false;
-
-        // foreach (Item i in items) {
-        //     if (i.name.Equals(item.name)) {
-        //         i.itemAmount++;
-        //         increased = true;
-        //     }
-        // }
-        // if (!increased)
             items.Add(item);
 
         if (onItemChangedCallback != null)
