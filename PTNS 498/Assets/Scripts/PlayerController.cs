@@ -15,10 +15,9 @@ public class PlayerController : MonoBehaviour
     public float movementSpeed = 20.0f;
 
     // A variable to be used to slow down diagonal movement
-    float moveLimiter = 0.7f;
+    private float moveLimiter = 0.7f;
 
-    // Initialize body and attach it to player sprite
-    void Start()
+    void Awake()
     {
         body = GetComponent<Rigidbody2D>();
     }

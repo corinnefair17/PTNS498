@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6643806488934755632}
   - component: {fileID: 6643806488934755635}
   m_Layer: 0
-  m_Name: Door
+  m_Name: Door_NS
   m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -56,7 +56,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.5118322}
+  m_Size: {x: 1, y: 2.5}
   m_EdgeRadius: 0
 --- !u!114 &6643806488934755635
 MonoBehaviour:
@@ -70,9 +70,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d4797584d9bb684699cf9ea7d3c18ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pressEText: {fileID: 0}
-  player: {fileID: 0}
-  cam: {fileID: 0}
+  sceneName: 
   playerPosition: {x: 0, y: 0, z: 0}
   camMinPosition: {x: 0, y: 0, z: 0}
   camMaxPosition: {x: 0, y: 0, z: 0}
